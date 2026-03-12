@@ -10,7 +10,7 @@
 5.Library (or Module) for everything PIP is used to install a module
 6.Rich Set of Libraries (modules)
 7.Open Source
-8.Used Heavily in 
+8.Used Heavily in
   i) Data Science
   ii) Machine Learning
   iii)Scientific Computing
