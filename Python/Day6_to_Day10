@@ -1,0 +1,209 @@
+# Python Day 6 - Install Pycharm
+# Python Day 7 - Debug in Pycharm
+base = 10
+height = 5
+area = 1/2 * (base * height)
+print(area)
+
+#*********************************************************************************
+# python Day 8 - If statements
+#User ask to enter a No program should tell if no is odd or even
+
+print(3<2)
+print(3>2 and 4>1)
+print(3>2 or 4>5)
+print(not True)
+a = int(input("Enter a No : "))
+if a%2 == 0:
+    print("Even No",a)
+else:
+    print("Odd No",a)
+    
+#user ask a dish tell which cuisine is that 
+
+Indian = ['Idli','Dosa','Puri']
+chinese = ['Noodles','Gobi']
+Italian = ['Momos','Rajma']
+
+dish = input("Enter a Dish : ")
+
+if dish in Indian:
+    print("Indian")
+elif dish in chinese:
+    print("Chinese")
+elif dish in Italian:
+    print("Italian")
+else:
+    print("A/c to my level i am not recognising ur dish",dish)
+
+#*********************************************************************************
+#Python Day 9 - for Loop
+
+#Store Monthly Expenses in a list and find out total expenses for all months
+
+l = [123,34,555,666,777]
+total = l[0] + l[1]+ l[2]+ l[3]+ l[4]
+print(total)
+
+c = 0
+for i in l:
+    c = c + i
+print(c)
+
+for i in range(1,11):
+    a = i*i
+    print(f'{i} * {i} = ',a)
+
+tt = 0    
+for i in range(len(l)):
+    print('Month :',(i+1),'Expense : ',l[i])
+    tt = tt + l[i]
+print("Total expenses : ",tt)
+
+#Search for lost car key in home and when found stop searching
+
+loc = ['Ground','kitchen','BedRoom','Washroom']
+
+key = 'BedRoom'
+for i in loc:
+    if i == key:
+        print("Key Found at Location : ",i)
+        break
+    else:
+        print("key not found in this loc might not be in this",i)
+        
+
+# Print Sq of nos btw 1 to  5 except even num
+
+for i in range(0,6):
+    if i%2 == 1:
+        print("Odd No is",i)
+        
+
+for i in range(1,6):
+    if i%2 == 0:
+        continue  
+    print(i*i)
+    
+i = 1
+while i<=5:
+    print(i)
+    i = i + 1
+
+
+#*********************************************************************************
+#Python Day 10 - function is a Block of code that performs a specific task
+
+tom_exp = [2100,3400,3500]
+joe_exp = [200,500,700]
+
+total = 0
+for i in tom_exp:
+    total = total + i
+print("Tom's Total Expenses",total)
+
+total = 0
+for i in joe_exp:
+    total = total + i
+print("Joe's Total Expenses",total)
+
+def list_total(data):
+    total = 0
+    for i in data:
+        total = total + i
+    return total
+    
+a = list_total(tom_exp)
+
+print("Tom's Total",a)
+
+Total = 0
+def sum(a,b=100):# Default arg
+# Documentation Strings
+'''
+This func takes 2 Arg which are integers and give Sum of 2 Numbers return output
+'''
+    print("A" , a)
+    print("B" , b)
+    Total = a + b
+    print("Inside the Body total",Total) #Local
+    return Total
+    
+b = sum(10,20) #Positional Arg
+print("Sum of 2 No's",b)
+c = sum(b=30,a=40) #Named Arg
+print("sum of 2 No's",c)
+
+#Global vs Local Variables
+print("Outside the Body total",Total) #Global
+default = sum(10)
+print("Default Arg : " ,default)
+
+#*********************************************************************************
+#Practice Exercise q1
+def area_T(base,height):
+    area = (1/2) * base * height
+    return area
+    
+aa = area_T(10,20)
+print("Area of a Triangle ",aa)
+
+#q2
+# 1. Write a function called calculate_area that takes base and height as an input and returns and area of a triangle. Equation of an area of a triangle is,
+# ```
+# area = (1/2)*base*height
+# ```
+#
+# 2. Modify above function to take third parameter shape type. It can be either "triangle" or "rectangle". Based on shape type it will calculate area. Equation of rectangle's area is,
+# ```
+# rectangle area=length*width
+# ```
+# If no shape is supplied then it should take triangle as a default shape
+def area_T_Shape(base,height,shape = 'triangle'):
+    
+    if shape.upper() == 'RECTANGLE':
+        area = base*height
+    elif shape.upper() == 'TRIANGLE':
+        area = (1/2) * base * height
+    else:
+       print("Error: Input shape is neither triangle nor rectangle.")
+       area=None
+    return area  
+aa = area_T_Shape(10,20,'triangle')
+print("Area of a Triangle ",aa)
+
+bb = area_T_Shape(10,20,'rectangle')
+print("Area of a Rectangle ",bb)
+
+cc = area_T_Shape(10,20,'')
+print("Area of a Triangle ",cc)
+
+#Q3
+def print_pattern(n=5):
+    
+    '''
+    :param n: Integer number representing number of lines
+    to be printed in a pattern. If n=3 it will print,
+      *
+      **
+      ***
+    If n=4, it will print,
+      *
+      **
+      ***
+      ****
+    Default value for n is 5. So if function caller doesn't
+    supply the input number then it will assume it to be 5
+    :return: None
+    '''
+    for i in range(n):
+        s = ''
+        for j in range(i+1):
+            s = s + '*'
+            
+        print(s)
+
+          
+print_pattern()
+
+print_pattern(2)
