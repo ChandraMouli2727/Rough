@@ -137,4 +137,45 @@ print(book['Chandra'])
 for p in book:
     print(book[p])
 
-#python 14 Reading / Writing  Files
+#python 13  Reading / Writing  Files
+
+'''
+1)Create a new file and write to it
+2)Reading file line by line
+3)File Open modes
+4)With Statement
+'''
+f = open("C:\\Users\\Chandra Mouli\\Desktop\\funny.txt","w")
+f.write("I Love Python")
+f.close() # override previous  code
+
+f = open("C:\\Users\\Chandra Mouli\\Desktop\\funny.txt","a")
+f.write("\n I Love Sql")
+f.close() # append  previous  code
+
+#Read file line by line
+
+f = open("C:\\Users\\Chandra Mouli\\Desktop\\funny1.txt","r")
+f_out= open("C:\\Users\\Chandra Mouli\\Desktop\\funny_out.txt","w")
+#print(f.read())
+for line in f:
+    tokens = line.split(" ")
+    f_out.write(str(len(tokens))+" "+line)
+    print(len(tokens),line)
+f.close() #  word count line by line
+f_out.close() # make sure close
+
+# r , w,r+,w+,a + if not exists it create it normal throw err file not found
+
+#with statement no need to use close func
+
+
+with open("C:\\Users\\Chandra Mouli\\Desktop\\funny.txt","r") as ff:
+    print(ff.read())
+
+print(ff.closed)
+
+
+
+
+
