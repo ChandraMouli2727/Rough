@@ -34,3 +34,40 @@ except TypeError  as e:
 print("Division is :  ",z)
 
 
+#Python Day 19 - Raise Exception 
+try: 
+    raise MemoryError('Memory Error')
+except MemoryError as e:
+    print(e)
+    
+try: 
+    raise Exception('Memory Error')
+except Exception as f:
+    print(f)
+
+#You need to define Exception by own using instance/obj of a class
+class Accident(Exception):
+    def __init__(self,msg):
+        self.msg = msg
+    def print_exception(self):
+        print("User Defined Exception ",self.msg)
+    def handle(self):
+        print("Accident Occured Take Detour")
+        
+try: 
+    raise Accident('Crash of 2 cars')
+except Accident as f:
+   f.print_exception()
+   f.handle()
+   
+def process_file():
+    try:
+        f = open("C:\\Code\\data.txt")
+        x = 1/0
+    except FileNotFoundError as e:
+        print("Inside Exception")
+    finally:
+        f.close() # It will close necessary files
+        print("Finally")
+
+
