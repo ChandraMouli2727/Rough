@@ -54,3 +54,39 @@ print("***************************")
 print(isinstance(car,vehicle))
 print(issubclass(car,vehicle))
 print(issubclass(car,motor_cycle))
+
+#Multiple Inheritance
+class Father():
+    def gardening(self):
+        print("I enjoy Gardening")
+        
+class mother():
+    def cooking(self):
+        print("I love Cooking")
+        
+class child(Father,mother): # Base Classes
+    def sports(self):
+        print("I enjoy Sports")
+        
+c = child()
+c.gardening()
+c.cooking()
+c.sports()
+
+print("****************************")
+class Father():
+    def skills(self):
+        print("Gardening,programming")
+        
+class mother():
+    def skills(self):
+        print("Cooking,art")
+        
+class child(Father,mother): # Base Classes
+    def skills(self):
+        Father.skills(self)
+        mother.skills(self)
+        print("Sports")
+        
+c = child()
+c.skills()
