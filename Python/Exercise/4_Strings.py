@@ -19,3 +19,23 @@ ab = 'Earth revolves around the sun'
 
 print(ab[6:15])
 print(ab[-3:])
+
+# 3. Create two variables to store how many fruits and vegetables you eat in a day.
+# Now Print "I eat x veggies and y fruits daily" where x and y presents vegetables and fruits that you eat everyday.
+# Use python f string for this.
+num_fruits=10
+num_veggies=5
+print(f"I eat {num_veggies} veggies and {num_fruits} fruits daily")
+
+# 4. I have a string variable called s='maine 200 banana khaye'. This of course is a
+# wrong statement, the correct statement is 'maine 10 samosa khaye'.
+# Replace incorrect words in original strong with new ones and print the new string.
+# Also try to do this in one line.
+s='maine 200 banana khaye'
+s=s.replace('banana','samosa')
+s=s.replace('200','10')
+print("Using two line replace:",s)
+
+s='maine 200 banana khaye'
+s=s.replace('banana','samosa').replace('200','10')
+print("Using single line:",s)
