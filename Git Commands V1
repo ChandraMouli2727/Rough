@@ -1,0 +1,152 @@
+
+Corey Schafer
+git --version
+
+git config --global user.name "Chandra mouli"
+git config --global user.gmail "abc.gmail.com"
+
+git config --list
+
+git help config --> #git help <verb>
+git config --help --> #git <verb> --help
+
+git add --help
+
+##########################################---> Local git Newly fresh git
+ls
+cd local-repo
+
+git init
+
+ls -la # contains repo files 
+
+rm -rf .git #removed directory
+
+ls -la
+
+git status # will see untracked files
+
+touch .gitignore # when u go inside a folder and add a files to igonre with extension 
+                   later when you see status it is no longer available in that repo
+			
+########################################## Stages in git:
+Working Directory (Currently working files untracked/modified files in it) 
+Staging Area (where we want to commit to repo u can do stage for 1 commit and another later push all)
+.git Directory(Repository)
+
+Add files to staging area
+
+git add -A (All untracked files) or git add .py file (Individual) --> Green colour (Staging Area)
+
+Remove files from staging area
+
+git reset .py file (individual) or git reset (all)
+
+git add -A
+
+git status
+
+git commit -m "my first commit"
+
+git status  (Working Directory is clean)
+
+git log
+
+
+##########################################--> Cloning a remote repo
+
+git clone <url> <where to clone>
+
+git clone https://remote_repo.git .
+
+cd ..
+
+ls
+
+cd cloned-repo/
+
+ls -la
+
+git clone https://remote_repo.git .
+
+ls -la
+
+viewing information about the remote repository
+
+git remote -v
+
+git branch -a (gives remote branch)
+
+pushing changes --##########################################
+
+git diff (red existing green new lines)
+git status
+git add -A (staging)
+git commit -m "Modified multiply func"
+
+git pull origin master
+git push origin master
+
+
+##########################################-->common workflow
+
+git branch calc-divide (created new branch)
+
+git branch (shows in which branch you are)#master
+
+git checkout calc-divide
+
+git branch (Now calc-divide) work/change in this one
+
+after commit push branch  to remote
+
+git push -u origin calc-divide
+
+git branch -a
+
+##########################################-->merge a branch
+
+git checkout master (switch to master )
+
+git pull origin master
+
+git branch --merged
+
+git merge calc-divide
+
+git push origin master
+
+##########################################-->Deleting a branch
+git branch --merged
+
+git branch -d calc-divide
+
+git branch -a
+
+git push origin --delete calc-divide
+
+##########################################Example
+
+git branch subtract
+
+git checkout subtract
+
+git status
+
+git add -A
+
+git commit -m "Chnages in subtract"
+
+git push -u origin subtract
+
+git checkout master
+
+git pull origin master
+
+git merge subtract
+
+git push origin subtract
+
+
+
+
