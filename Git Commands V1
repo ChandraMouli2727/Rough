@@ -135,7 +135,7 @@ git status
 
 git add -A
 
-git commit -m "Chnages in subtract"
+git commit -m "Changes in subtract"
 
 git push -u origin subtract
 
