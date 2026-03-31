@@ -168,13 +168,87 @@ git commit -m "stash changes committed in add branch"
 
 git diff
 
+sourcegear (DIFFMERGE) Need to download
+
+ls /usr/bin/diffmerge ## Command to search whether diffmerge is present
 
 
+git config --global difftool.diffmerge.cmd 'C:/Program\ Files/SourceGear/Common/DiffMerge/sgdm.exe' "$LOCAL" "$REMOTE" - This command sets the difftool to DiffMerge.
+git config --global merge.tool diffmerge - This command sets the merge tool to DiffMerge.
+git config --global mergetool.diffmerge.cmd 'C:/Program\ Files/SourceGear/Common/DiffMerge/sgdm.exe' -merge -result="$PWD/$MERGED" $PWD/$LOCAL $PWD/$BASE $PWD/$REMOTE" - This command sets the mergetool to DiffMerge.
+git config --global mergetool.diffmerge.trustExitCode true - This command trusts the exit code returned by the mergetool.
+git config --global mergetool.keepBackup false - This command does not keep the .orig backup file post-merge.
 
 
- 
+git config --global --list
+
+git difftool
+options Y/N type Y
+
+git diff
+
+git branch
+
+git merge testmerge
+
+git mergetool(It will launch diffmerge)
+
+git commit
+
+git log
+
+git difftool
+
+so open with this command
+
+open -e "$HOME/Library/preferences/SourceGear DiffMerge Preferences"
+
+add this 2 commands after/under license
+
+[File]
+Font = 22:76:consolas
+
+######################################################
+Difference betweed "add -A" ,"add -u","add .", and "add *"
+
+git add --all (git add -A)
+
+git status (It was staged all the files)
+
+git reset (Unstage all the files)
 
 
+cd my_dir/
+git add -A (still all files is at staged)
 
+cd ..(top level directory)
 
+git add -A my_dir/ ( now you will stage only in this dir)
 
+git add my_dir/ (-A is default one it will stage all files in dir)
+
+git add --no-all my_dir/ (It doesn't stage deleted files)
+
+git add --update (-u) (It will stage all deleted files also but not new files/Untracked files)
+
+git add -u my_dir/ (it will add both modified and deleted files only in that dir)
+
+git add . (current directory if you are in top directory it is same as add -A)
+
+cd my_dir/
+
+git add . (added filed only in my_dir/)
+
+cd ..(top directory)
+
+ls *
+
+git add *
+
+git add -A * (same default -A) it will add deleted file in a directory
+
+cd my_dir/
+
+git add * (Now it is ignored deleted file in dir also & top level untracked files)
+
+git reset
