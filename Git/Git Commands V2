@@ -1,0 +1,180 @@
+ls -la
+
+git status
+
+git log
+
+git branch
+
+#####################undo changes
+
+git status 
+
+git diff
+
+git checkout calc.py here (removed any changes )
+
+git status(change any func) (modified in red)
+
+git add -A (modified in green means ready to commit)
+
+git log
+
+git commit -m "Modified in multiply func"
+
+git commit --amend -m "Completed Subtract Func"
+
+git log
+
+----Suppose by accidentally left off a file here create a .gitignore
+
+touch .gitignore
+git status (red)
+git add .gitignore
+git commit --amend
+git log
+git log --stat
+
+
+-->pushed wrong branch 
+git log
+git checkout branch_you_want
+git log
+git cherry-pick #hashcode12223
+git log
+
+git checkout main
+git log
+reset types --> soft reset,mixed reset (default),hard reset
+git reset --soft #hashcode12223
+git log ----->showing staging area files (green)
+git status
+git reset #hashcode12223
+git log --> even undo which are ready to stage like(red)
+git status
+git reset --hard #hashcode12223 (reset tracked files & kept alone which is untracked)
+git log
+git status
+git clean -df (directory clean & force)(removed untracked files and ignore file as well)
+git status 
+
+---############Accidently reset all files but some time u can revert it 30 days
+git reflog
+
+git checkout #hashcode12223
+
+git log
+
+git branch backup
+git checkout main
+git branch
+git checkout backup
+git log
+git reflog
+
+---############shouldn't changed history other people already taken update 
+so REVERT it creates the new commit to reverse the effect of some earlier commits
+so on top of it creates new one without history intact
+
+git revert #hashcode12223
+
+git log(see newly additional commit reverted)
+git diff #hashcode12223 #hashnew4455 (will see difference ) so history is same for all now won't interupt
+
+#################3 stash Command
+
+- git stash is used when you have uncommitted changes in your working directory 
+(both staged and unstaged) and you want to temporarily set them aside without committing.
+
+git branch add
+
+git checkout add(made some changes)
+
+git diff
+
+git stash save "Worked on Add function"
+
+git diff (no changes found)
+
+git status (nothing)
+
+git stash list
+
+git stash apply stash@{0}
+
+git stash list (still stash elements is there)
+
+git checkout --.
+
+git stash pop (pop out very first stash apply those changes and dropped)
+
+git stash list
+
+git diff 
+
+
+#Ex first Main func
+
+changed all func and save it 
+git stash save "Calc funcs"
+
+git stash list
+
+now add a new func save it
+
+git stash save "func added"
+
+git stash list (found 2 stash id)
+
+git stash pop (so latest top 1 is come back it)
+
+git stash list (found only 1)
+
+git stash save "func sq added" 
+
+git stash list (found only 2 ) 
+
+git stash drop stash@{0}
+
+git stash list (found only 1)
+
+git stash save "func sq added again" 
+
+git stash list (found only 2 ) 
+
+git stash clear ( all clear) 
+
+git stash list (o found)
+
+
+git checkout main (changed any lines in main)
+
+git stash save "Add func"
+
+git status
+
+git checkout add (Switched now in add branch so all code now in add branch)
+
+git stash pop
+
+git diff
+
+git add .
+
+git commit -m "stash changes committed in add branch"
+
+
+###############################Diff and merge tools
+
+git diff
+
+
+
+
+
+ 
+
+
+
+
+
