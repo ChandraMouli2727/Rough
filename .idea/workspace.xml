@@ -1,0 +1,369 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f8bf20ea-32e3-4b68-9da1-5b2f185c13d0" name="Changes" comment="argparser updated">
+      <change beforePath="$PROJECT_DIR$/Git Commands" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Git Commands V1" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Git Commands V2" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pandas/Py_3_Read_write_Excel_CSV.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Pandas/Py_3_Read_write_Excel_CSV.ipynb" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;history&quot;: [
+    {
+      &quot;assignee&quot;: &quot;ChandraMouli2727&quot;
+    }
+  ],
+  &quot;lastFilter&quot;: {
+    &quot;assignee&quot;: &quot;ChandraMouli2727&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">{
+  &quot;selectedUrlAndAccountId&quot;: {
+    &quot;url&quot;: &quot;https://github.com/ChandraMouli2727/Rough.git&quot;,
+    &quot;accountId&quot;: &quot;39782269-b0e5-4c99-b569-dea983769903&quot;
+  }
+}</component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="3AlCMaB3UVdlSaqFNTE2dIBvhui" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Python.Arrays.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Basics.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Binary_Search_Tree_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Class.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Day11_to_Day15.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Day1_to_Day5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Day6_to_Day10.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Decarators.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Decarators_Ex.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Exception.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Hash_Table_Collosion.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Hash_Table_ex.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Inheritance.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Linked_List.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MultiProcessing.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MultiProcessing_28.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MultiProcessing_Array_Val_28.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MultiProcessing_Lock.executor&quot;: &quot;Run&quot;,
+    &quot;Python.MultiThreading_26_Ex.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Multiprocess_queue_pipe.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Multiprocessing_Pool.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Myprogram.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Tree.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Tree_1_CODEBASICS_EX.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Tree_Ex.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Tree_Ex2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.area.executor&quot;: &quot;Run&quot;,
+    &quot;Python.argparser_commandline.executor&quot;: &quot;Run&quot;,
+    &quot;Python.argparser_commondline.executor&quot;: &quot;Run&quot;,
+    &quot;Python.caller.executor&quot;: &quot;Run&quot;,
+    &quot;Python.stack.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Chandra Mouli\PycharmProjects1\Rough\DSA" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.Basics">
+    <configuration name="Basics" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Rough" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/Numpy" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Numpy/Basics.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Binary_Search_Tree_1" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Rough" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DSA" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DSA/Binary_Search_Tree_1.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Tree_1_CODEBASICS_EX" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Rough" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DSA" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DSA/Tree_1_CODEBASICS_EX.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Tree_Ex" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Rough" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DSA" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DSA/Tree_Ex.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Tree_Ex2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Rough" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DSA" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DSA/Tree_Ex2.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.Basics" />
+      <item itemvalue="Python.Binary_Search_Tree_1" />
+      <item itemvalue="Python.Tree_1_CODEBASICS_EX" />
+      <item itemvalue="Python.Tree_Ex2" />
+      <item itemvalue="Python.Tree_Ex" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.Basics" />
+        <item itemvalue="Python.Binary_Search_Tree_1" />
+        <item itemvalue="Python.Tree_Ex2" />
+        <item itemvalue="Python.Tree_1_CODEBASICS_EX" />
+        <item itemvalue="Python.Tree_Ex" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-0e3be3396995-c546a90a8094-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-242.23339.19" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f8bf20ea-32e3-4b68-9da1-5b2f185c13d0" name="Changes" comment="" />
+      <created>1773157724676</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1773157724676</updated>
+    </task>
+    <task id="LOCAL-00001" summary="Removed text Files Added .py files">
+      <option name="closed" value="true" />
+      <created>1773332740645</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1773332740645</updated>
+    </task>
+    <task id="LOCAL-00002" summary="From Day 11 to 14 files">
+      <option name="closed" value="true" />
+      <created>1773493523195</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1773493523195</updated>
+    </task>
+    <task id="LOCAL-00003" summary="init func">
+      <option name="closed" value="true" />
+      <created>1773563537751</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1773563537753</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Exceptions &amp; Class &amp; Objects">
+      <option name="closed" value="true" />
+      <created>1773593163816</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1773593163816</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Inheritance code">
+      <option name="closed" value="true" />
+      <created>1773627770707</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1773627770707</updated>
+    </task>
+    <task id="LOCAL-00006" summary="updated Hash Table Ex file">
+      <option name="closed" value="true" />
+      <created>1774317616796</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1774317616796</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Stack file creared">
+      <option name="closed" value="true" />
+      <created>1774404020190</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1774404020192</updated>
+    </task>
+    <task id="LOCAL-00008" summary="argparser created">
+      <option name="closed" value="true" />
+      <created>1774488987953</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1774488987953</updated>
+    </task>
+    <task id="LOCAL-00009" summary="argparser updated">
+      <option name="closed" value="true" />
+      <created>1774493173926</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1774493173926</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Create Day6_to_Day10&#10;&#10;Practing from Day 6 to Day 10" />
+    <MESSAGE value="Removed text Files Added .py files" />
+    <MESSAGE value="From Day 11 to 14 files" />
+    <MESSAGE value="init func" />
+    <MESSAGE value="Exceptions &amp; Class &amp; Objects" />
+    <MESSAGE value="Inheritance code" />
+    <MESSAGE value="updated Hash Table Ex file" />
+    <MESSAGE value="Stack file creared" />
+    <MESSAGE value="argparser created" />
+    <MESSAGE value="argparser updated" />
+    <option name="LAST_COMMIT_MESSAGE" value="argparser updated" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python/MultiProcessing_27.py</url>
+          <line>18</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/Python/MultiThreading_26_Ex.py</url>
+          <line>16</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/DSA/Tree.py</url>
+          <line>15</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/DSA/Tree_Ex.py</url>
+          <line>47</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/DSA/Tree_Ex2.py</url>
+          <line>70</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+</project>
