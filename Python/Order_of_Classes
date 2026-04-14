@@ -1,0 +1,33 @@
+PYTHON Order of classes
+Why Should You Learn Python? | Complete python3 tutorials for beginners
+1. Install python on windows
+2. Variables in python
+3. Numbers
+4.strings
+5.Lists
+6.Install PyCharm on Windows
+7.Debug Python Code using PyCharm
+8.If statements
+9.For loop
+10.Functions
+11.Dictionaries and Tuples
+12.Modules
+13.Working with Json
+14.if__name__=="__main__"
+15.Exception Handling
+16.Class and objects
+17.Inheritance
+18.multiple Inheritance
+19.Raise Exception and Finally
+20.Iterators
+21.Generators
+22.List set Dict Comprehensions
+23.Sets and frozen sets
+24.Command line argument processing
+25.Decarators
+26.Multithreading
+27.multiprocessing
+28.Sharing data between processes using array and value
+29.sharing data between processes using multiprocessing queue
+30.multiprocessing lock
+31.multiprocessing pool
