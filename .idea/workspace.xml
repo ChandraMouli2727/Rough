@@ -5,10 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f8bf20ea-32e3-4b68-9da1-5b2f185c13d0" name="Changes" comment="argparser updated">
-      <change beforePath="$PROJECT_DIR$/Git Commands" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Git Commands V1" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Git Commands V2" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Pandas/Py_3_Read_write_Excel_CSV.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/Pandas/Py_3_Read_write_Excel_CSV.ipynb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -49,50 +47,51 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Python.Arrays.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Basics.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Binary_Search_Tree_1.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Class.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Day11_to_Day15.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Day1_to_Day5.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Day6_to_Day10.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Decarators.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Decarators_Ex.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Exception.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Hash_Table_Collosion.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Hash_Table_ex.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Inheritance.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Linked_List.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MultiProcessing.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MultiProcessing_28.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MultiProcessing_Array_Val_28.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MultiProcessing_Lock.executor&quot;: &quot;Run&quot;,
-    &quot;Python.MultiThreading_26_Ex.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Multiprocess_queue_pipe.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Multiprocessing_Pool.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Myprogram.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Tree.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Tree_1_CODEBASICS_EX.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Tree_Ex.executor&quot;: &quot;Run&quot;,
-    &quot;Python.Tree_Ex2.executor&quot;: &quot;Run&quot;,
-    &quot;Python.area.executor&quot;: &quot;Run&quot;,
-    &quot;Python.argparser_commandline.executor&quot;: &quot;Run&quot;,
-    &quot;Python.argparser_commondline.executor&quot;: &quot;Run&quot;,
-    &quot;Python.caller.executor&quot;: &quot;Run&quot;,
-    &quot;Python.stack.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.Arrays.executor": "Run",
+    "Python.Basics.executor": "Run",
+    "Python.Binary_Search_Tree_1.executor": "Run",
+    "Python.Class.executor": "Run",
+    "Python.Day11_to_Day15.executor": "Run",
+    "Python.Day1_to_Day5.executor": "Run",
+    "Python.Day6_to_Day10.executor": "Run",
+    "Python.Decarators.executor": "Run",
+    "Python.Decarators_Ex.executor": "Run",
+    "Python.Exception.executor": "Run",
+    "Python.Gradient_descent.executor": "Run",
+    "Python.Hash_Table_Collosion.executor": "Run",
+    "Python.Hash_Table_ex.executor": "Run",
+    "Python.Inheritance.executor": "Run",
+    "Python.Linked_List.executor": "Run",
+    "Python.MultiProcessing.executor": "Run",
+    "Python.MultiProcessing_28.executor": "Run",
+    "Python.MultiProcessing_Array_Val_28.executor": "Run",
+    "Python.MultiProcessing_Lock.executor": "Run",
+    "Python.MultiThreading_26_Ex.executor": "Run",
+    "Python.Multiprocess_queue_pipe.executor": "Run",
+    "Python.Multiprocessing_Pool.executor": "Run",
+    "Python.Myprogram.executor": "Run",
+    "Python.Tree.executor": "Run",
+    "Python.Tree_1_CODEBASICS_EX.executor": "Run",
+    "Python.Tree_Ex.executor": "Run",
+    "Python.Tree_Ex2.executor": "Run",
+    "Python.area.executor": "Run",
+    "Python.argparser_commandline.executor": "Run",
+    "Python.argparser_commondline.executor": "Run",
+    "Python.caller.executor": "Run",
+    "Python.stack.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "main",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\Chandra Mouli\PycharmProjects1\Rough\DSA" />
     </key>
   </component>
-  <component name="RunManager" selected="Python.Basics">
+  <component name="RunManager" selected="Python.Gradient_descent">
     <configuration name="Basics" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Rough" />
       <option name="ENV_FILES" value="" />
@@ -137,6 +136,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="Gradient_descent" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="Rough" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ML" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ML/Gradient_descent.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="Tree_1_CODEBASICS_EX" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Rough" />
       <option name="ENV_FILES" value="" />
@@ -151,28 +172,6 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DSA/Tree_1_CODEBASICS_EX.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="Tree_Ex" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Rough" />
-      <option name="ENV_FILES" value="" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/DSA" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/DSA/Tree_Ex.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -204,19 +203,19 @@
       <method v="2" />
     </configuration>
     <list>
+      <item itemvalue="Python.Gradient_descent" />
       <item itemvalue="Python.Basics" />
       <item itemvalue="Python.Binary_Search_Tree_1" />
       <item itemvalue="Python.Tree_1_CODEBASICS_EX" />
       <item itemvalue="Python.Tree_Ex2" />
-      <item itemvalue="Python.Tree_Ex" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Gradient_descent" />
         <item itemvalue="Python.Basics" />
         <item itemvalue="Python.Binary_Search_Tree_1" />
         <item itemvalue="Python.Tree_Ex2" />
         <item itemvalue="Python.Tree_1_CODEBASICS_EX" />
-        <item itemvalue="Python.Tree_Ex" />
       </list>
     </recent_temporary>
   </component>
