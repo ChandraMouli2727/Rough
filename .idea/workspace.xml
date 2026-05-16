@@ -6,14 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="f8bf20ea-32e3-4b68-9da1-5b2f185c13d0" name="Changes" comment="argparser updated">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML/Gradient_Descent_Ex.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ML/Gradient_Descent_Ex.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ML/Linear_Reg_Multiple_Variables.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ML/Linear_Reg_Multiple_Variables.ipynb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ML/Linear_Reg_Single_Variable.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ML/Linear_Reg_Single_Variable.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML/Logistic_Reg_MultiClass_8_2.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ML/Logistic_Reg_MultiClass_8_2.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML/Logistic_Regression(Binary_classification)_8.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ML/Logistic_Regression(Binary_classification)_8.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML/One_Hot_Encoding.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ML/One_Hot_Encoding.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML/Save_JobLib.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ML/Save_JobLib.ipynb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ML/Training_Testing_Data_7.ipynb" beforeDir="false" afterPath="$PROJECT_DIR$/ML/Training_Testing_Data_7.ipynb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
